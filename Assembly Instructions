@@ -1,0 +1,18 @@
+Assembly Instructions:
+
+Assemble the robot moving from Base to the gripper, an overview of the assembly instruction is provided below:
+
+•	Assemble the base as shown in the illustration. Use of hot glue/ super glue is recommended.
+•	Mount HS-422 Servo motor with the screws provided along with it on the supports beneath the hexagonal base. 
+•	Insert the ball bearings on the hexagonal base
+•	Assemble the circular disc to the base motor 
+•	Assemble the shoulder bracket along with the shoulder motor HS-805BB
+•	Mount the frame on the disc o the servo motor
+•	Mount the elbow bracket along with the elbow motor HS-645MG on the other end of frame
+•	Assemble the wrist bracket and motor HS-422 separately
+•	Now connect the aluminum rod with the ends between the elbow and wrist brackets
+•	Assembling the gripper
+Slider the holder pads on the C- Frame aligning the groves on the pads
+Mount the motor through the hole in the C clamp and screw the gear on top of it, put the rail on either side of it
+Bolt this assembly to the U clamp with holes on the either side to the wrist motor
+•	Wire all the motors according to the instructions for the servo motor wiring provided in the sample testing code.
