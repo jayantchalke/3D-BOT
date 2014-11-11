@@ -1,0 +1,43 @@
+// This code may be used for testing and wiring the servos according to the pin numbers defined
+//However the robot ay be programmed as per the users needs
+
+
+#include <Servo.h>
+
+#define PIN_SER0 2 // base
+#define PIN_SER1 3 // shoulder
+#define PIN_SER2 4 // elbow
+#define PIN_SER3 5 // wrist
+#define PIN_SER4 6 // gripper
+
+Servo servo[5];  // create servo object to control a servo 
+                
+ 
+   
+ 
+void setup() 
+{ 
+  pinMode(PIN_SER0, OUTPUT);  // Configure pin mode
+  pinMode(PIN_SER1, OUTPUT);
+  pinMode(PIN_SER2, OUTPUT);
+  pinMode(PIN_SER3, OUTPUT);
+  pinMode(PIN_SER4, OUTPUT);
+
+  servo[0].attach(PIN_SER0);
+  servo[1].attach(PIN_SER1);
+  servo[2].attach(PIN_SER2);
+  servo[3].attach(PIN_SER3);
+  servo[4].attach(PIN_SER4);
+} 
+ 
+ 
+void loop() 
+{ 
+                            
+servo[0].write(90);       //writing angle to test motors
+servo[1].write(90); 
+servo[2].write(90); 
+servo[3].write(90); 
+servo[4].write(90);  
+                      
+}
